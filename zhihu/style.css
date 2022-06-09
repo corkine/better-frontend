@@ -1,0 +1,45 @@
+/* ==UserStyle==
+@name           zhihu.com - 2022/6/8 13:35:39
+@namespace      github.com/openstyles/stylus
+@version        1.0.0
+@description    A new userstyle
+@author         Me
+==/UserStyle== */
+
+@-moz-document domain("zhihu.com") {
+    /* 在此插入代码... */
+    html body.Topstory-body div#root div div header {
+        position: relative;
+        right: 0px;
+        left: 0px;
+        top: 0;
+        background: rgb(28, 27, 34);
+    }
+    .Footer, .GlobalSideBar {
+        display: none;
+    }
+    .Topstory-mainColumn {
+        width: 900px;
+    }
+    .Topstory-container {
+        justify-content: center;
+    }
+    header li.Tabs-item.AppHeader-Tab:nth-child(2), header li.Tabs-item.AppHeader-Tab:nth-child(4) {
+        display: none;
+    }
+    .Button.AppHeader-notifications > div, .Button.AppHeader-messages > div {
+        display: none;
+    }
+    html body.Topstory-body div#root div main.App-main div.Topstory {
+        background: rgb(43, 42, 51);
+    }
+    html body.Topstory-body div#root div main.App-main div.Topstory div.Card.TopstoryItem {
+        background: rgb(28, 27, 34);
+    }
+    html body.Topstory-body div#root div main.App-main div.Topstory  div.ContentItem-actions {
+        background: rgb(28, 27, 34);
+    }
+    html body.Topstory-body div#root div main.App-main div.Topstory div.Topstory-container div.Topstory-mainColumn .TopstoryTabs {
+        background: rgb(28, 27, 34);
+    }
+}
